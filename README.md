@@ -18,7 +18,7 @@ pod 'LNBRippleEffect'
 ##Normal Installation
 
 1. Download the zip file. 
-2. Drag and drop the LNBRippleEffect.h and LNBRippleEffect.m files to your workspace
+2. Add **LNBRippleEffect.h** and **LNBRippleEffect.m** files to your workspace
 3. Select 'Copy items if needed' option
 
 #Usage 
