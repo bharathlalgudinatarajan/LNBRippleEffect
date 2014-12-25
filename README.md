@@ -38,8 +38,8 @@ LNBRippleEffect *rippleEffect = [[LNBRippleEffect alloc]initWithImage:[UIImage i
 
 1. Add an image to the button 
 2. Change the button's border by editing the initWithImage's Color argument 
-3. Change the color of ripples by setting custom RGB values to UIColor property of *setRippleColor*
-4. Change the color of ripple trails by setting custom RGB values to UIColor property of *setRippleTrailColor*
+3. Change the color of ripples by setting custom RGB values to UIColor property of **setRippleColor**
+4. Change the color of ripple trails by setting custom RGB values to UIColor property of **setRippleTrailColor**
 
 #Author
 
