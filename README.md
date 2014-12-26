@@ -23,6 +23,11 @@ pod 'LNBRippleEffect'
 
 #Usage 
 
+Import LNBRippleEffect.h
+~~~~~~~~
+#import "LNBRippleEffect.h"
+~~~~~~~~
+
 Add the following code to your ViewController and you're good to go.
 
 ~~~~~~~~
