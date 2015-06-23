@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>LNBRippleEffect by lnbharath</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>LNBRippleEffect</h1>
+        <h2>Create a Tinder-like button with ripple animation. </h2>
+        <a href="https://github.com/lnbharath/LNBRippleEffect" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="lnbrippleeffect" class="anchor" href="#lnbrippleeffect" aria-hidden="true"><span class="octicon octicon-link"></span></a>LNBRippleEffect</h1>
+
+<p>Create a Tinder-like button with ripple animation. </p>
+
+<p><img src="https://github.com/lnbharath/LNBRippleEffect/blob/0.1.0/Demo/LNBRippleEffect.gif"></p>
+
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h1>
+
+<h2>
+<a id="using-cocoapods" class="anchor" href="#using-cocoapods" aria-hidden="true"><span class="octicon octicon-link"></span></a>Using Cocoapods</h2>
+
+<p>CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like LNBRippleEffect in your projects. </p>
+
+<h3>
+<a id="podfile" class="anchor" href="#podfile" aria-hidden="true"><span class="octicon octicon-link"></span></a>Podfile</h3>
+
+<pre><code>pod 'LNBRippleEffect'
+</code></pre>
+
+<h2>
+<a id="normal-installation" class="anchor" href="#normal-installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Normal Installation</h2>
+
+<ol>
+<li>Download the zip file. </li>
+<li>Add <strong>LNBRippleEffect.h</strong> and <strong>LNBRippleEffect.m</strong> files to your workspace</li>
+<li>Select 'Copy items if needed' option</li>
+</ol>
+
+<h1>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h1>
+
+<p>Import LNBRippleEffect.h</p>
+
+<pre><code>#import "LNBRippleEffect.h"
+</code></pre>
+
+<p>Add the following code to your ViewController and you're good to go.</p>
+
+<pre><code>LNBRippleEffect *rippleEffect = [[LNBRippleEffect alloc]initWithImage:[UIImage imageNamed:@""] Frame:CGRectMake(110, 200, 100, 100) Color:[UIColor colorWithRed:(28.0/255.0) green:(212.0/255.0) blue:(255.0/255.0) alpha:1] Target:@selector(buttonTapped:) ID:self];
+[rippleEffect setRippleColor:[UIColor colorWithRed:(28.0/255.0) green:(212.0/255.0) blue:(255.0/255.0) alpha:1]];
+[rippleEffect setRippleTrailColor:[UIColor colorWithRed:(28.0/255.0) green:(212.0/255.0) blue:(255.0/255.0) alpha:0.5]];
+[self.view addSubview:rippleEffect];
+</code></pre>
+
+<h1>
+<a id="customization" class="anchor" href="#customization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Customization</h1>
+
+<h3>
+<a id="lnbrippleeffect-is-highly-customizable" class="anchor" href="#lnbrippleeffect-is-highly-customizable" aria-hidden="true"><span class="octicon octicon-link"></span></a>LNBRippleEffect is highly customizable</h3>
+
+<ol>
+<li>Add an image to the button </li>
+<li>Change the button's border by editing the initWithImage's Color argument </li>
+<li>Change the color of ripples by setting custom RGB values to UIColor property of <strong>setRippleColor</strong>
+</li>
+<li>Change the color of ripple trails by setting custom RGB values to UIColor property of <strong>setRippleTrailColor</strong>
+</li>
+</ol>
+
+<h1>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h1>
+
+<p>Bharath Lalgudi Natarajan(<a href="http://twitter.com/lnbharath">@lnbharath</a>)</p>
+
+<h1>
+<a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact</h1>
+
+<p>Mail- <a href="mailto:iosdevbharath@gmail.com">iosdevbharath@gmail.com</a></p>
+
+<h1>
+<a id="licence" class="anchor" href="#licence" aria-hidden="true"><span class="octicon octicon-link"></span></a>Licence</h1>
+
+<p>LNBRippleEffect is available under the MIT license. See the LICENSE file for more info.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/lnbharath/LNBRippleEffect/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/lnbharath/LNBRippleEffect/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/lnbharath/LNBRippleEffect"></a> is maintained by <a href="https://github.com/lnbharath">lnbharath</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
