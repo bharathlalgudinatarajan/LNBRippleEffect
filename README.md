@@ -8,7 +8,7 @@ Create a Tinder-like button with ripple animation.
 
 #Installation
 
-##Using Cocoapods
+##Using CocoaPods
 
 CocoaPods is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like LNBRippleEffect in your projects. 
 
